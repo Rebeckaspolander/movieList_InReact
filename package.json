@@ -11,6 +11,9 @@
     "test": "npm run test:client && npm run test:server",
     "test:server": "cd server && npm run test",
     "test:client": "cd client && npm run test",
+    "verify": "npm run test:client && npm run test:server",
+    "verify:server": "cd server && npm run test",
+    "verify:client": "cd client && npm run test",
     "start": "cd server && npm start"
   },
   "repository": {
