@@ -1,6 +1,9 @@
 import express from "express";
 import * as path from "path";
 import bodyParser from "body-parser";
+// import {MongoClient} from "mongodb";
+// import dotenv from "dotenv";
+// dotenv.config();
 
 const app = express();
 
@@ -18,6 +21,8 @@ const MOVIES = [
 ];
 
 app.use(bodyParser.json());
+
+
 
 app.get("/api/movies", (req, res) => {
     res.json(MOVIES)
