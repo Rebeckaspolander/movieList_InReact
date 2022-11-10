@@ -4,8 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "parcel watch index.html",
-    "build": "parcel build index.html",
+    "dev": "parcel build index.html",
+    "build": "parcel index.html",
     "test": "jest",
     "verify": "jest"
   },
