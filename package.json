@@ -1,7 +1,7 @@
 {
   "name": "movielist_inreact",
   "version": "1.0.0",
-  "description": "",
+  "description": "Readme.md",
   "main": "index.js",
   "type": "module",
   "scripts": {
